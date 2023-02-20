@@ -6,6 +6,7 @@ export default function () {
 	return (
 		<>
 			<div className="flex justify-between p-4 shadow-xl bg-[#e7e7e7]">
+				{/* can import Link from react router too */}
 				<a href="#" className="text-3xl font-bold">
 					Foodjoint
 				</a>
@@ -26,7 +27,7 @@ export default function () {
 			</div>
 			<div className="flex mt-4 max-w-[90%] mx-auto shadow-md rounded-lg">
 				<input type="text" className="w-full p-3" placeholder="Search" />
-				<span className="p-2 self-center cursor-pointer">
+				<span className="p-2 self-center cursor-pointer bg-white">
 					<IoMdSearch className="text-3xl" />
 				</span>
 			</div>

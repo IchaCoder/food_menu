@@ -11,7 +11,7 @@ const SingleFood = ({ food }) => {
 				className="max-h-[120px] max-w-[120px] self-center"
 				alt={name}
 			/>
-			<div className="flex gap-2">
+			<div className="flex gap-2 flex-1">
 				<div>
 					<h2 className="text-lg font-bold">{name}</h2>
 					<h3 className="font-semibold text-gray-400 text-sm">{location}</h3>

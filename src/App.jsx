@@ -1,5 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import BottomNav from "./components/BottomNav";
 import Foods from "./components/Foods";
 import Nav from "./components/Nav";
 import "./output.css";
@@ -11,6 +12,7 @@ function App() {
 		<div className="min-h-screen bg-[#ededed]">
 			<Nav />
 			<Foods />
+			<BottomNav />
 		</div>
 	);
 }
